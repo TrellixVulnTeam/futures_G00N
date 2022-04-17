@@ -1,10 +1,10 @@
 #!C:\Users\elshe\Code\Futures\FuturesEnv\Scripts\python.exe
-# EASY-INSTALL-ENTRY-SCRIPT: 'Flask==2.0.2','console_scripts','flask'
+# EASY-INSTALL-ENTRY-SCRIPT: 'flask==2.0.2','console_scripts','flask'
 import re
 import sys
 
 # for compatibility with easy_install; see #2198
-__requires__ = 'Flask==2.0.2'
+__requires__ = 'flask==2.0.2'
 
 try:
     from importlib.metadata import distribution
@@ -30,4 +30,4 @@ globals().setdefault('load_entry_point', importlib_load_entry_point)
 
 if __name__ == '__main__':
     sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
-    sys.exit(load_entry_point('Flask==2.0.2', 'console_scripts', 'flask')())
+    sys.exit(load_entry_point('flask==2.0.2', 'console_scripts', 'flask')())
